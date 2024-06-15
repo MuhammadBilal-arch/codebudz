@@ -31,7 +31,7 @@ const Home = async () => {
 
   return (
     <main className="space-y-8">
-      <div className="grid lg:grid-cols-3 gap-4 lg:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-8">
         <AnalyticsCard
           title={"Total Users"}
           icon={<HiOutlineUsers />}
@@ -52,19 +52,19 @@ const Home = async () => {
         />
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-4 lg:gap-8">
-        <div className="">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-8">
+        <div className="col-span-1">
           <ChartCard
             title="Clinical Accuracy"
             subtitle=""
             chart={
-              <div className="max-h-80 lg:max-h-96 min-h-80 h-full flex items-center justify-center">
+              <div className="max-h-80 xl:max-h-96 min-h-80 h-full flex items-center justify-center">
                 <DoughnutChart dataList={[1000, 500]} />
               </div>
             }
           />
         </div>
-        <div className="lg:col-span-2">
+        <div className="col-span-1 xl:col-span-2">
           <ChartCard
             title="72 Hour Acuity Level Volume"
             subtitle="Track how your rating compares to your industry average."
@@ -77,7 +77,8 @@ const Home = async () => {
             }
           />
         </div>
-        <div className="lg:col-span-3">
+
+        <div className="col-span-1 lg:col-span-2 xl:col-span-3">
           <ChartCard
             title="Clinical Response Time"
             subtitle=""
