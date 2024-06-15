@@ -83,7 +83,7 @@ const Home = async () => {
             title="Clinical Response Time"
             subtitle=""
             chart={
-              <div className="max-h-80 lg:max-h-96 min-h-80  flex items-center justify-center">
+              <div className="max-h-80 lg:max-h-96 2xl:min-h-[26rem] min-h-80 flex justify-start">
                 <LineChart
                   title="" 
                   dates=""
