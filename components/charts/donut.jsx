@@ -10,7 +10,7 @@ export const DoughnutChart = ({ labels, datalist }) => {
     labels: ["Correct", "Incorrect"],
     datasets: [
       {
-        label: "Metrics type",
+        label: "Clinical Accuracy",
         data: [19, 30],
         backgroundColor: ["#010A3F", "#FC9803"],
         borderColor: ["#010A3F", "#FC9803"],

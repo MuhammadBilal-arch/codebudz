@@ -20,38 +20,41 @@ import {
 import { DUMMY_AVATAR } from "@/utils/contant";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { useMediaQuery } from "@/utils/hooks/useMediaQuery";
 const AdminLayout = ({ children }) => {
   const navigate = useRouter();
   const pathname = usePathname();
   const { user, isLogged } = useSelector((state) => state.User);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const isMobile = useMediaQuery("(max-width: 768px)");
+  const [isSidebarOpen, setIsSidebarOpen] = useState(!isMobile);
+
   const dispatch = useDispatch();
 
   const isActive = (path) => {
-    return pathname === path ? "bg-white" : "";
+    return pathname === path ? "bg-white text-purple font-semibold" : "";
   };
 
   const providerRoutes = [
     {
-      route: `/dashboard/${user?.role}/analytics`,
+      route: `/dashboard/lab/analytics`,
       icon: <FaRegEnvelopeOpen className="text-xl" />,
       name: "Admin Home",
       role: ["administrator", "nurse", "doctor", "surgeon"],
     },
     {
-      route: `/dashboard/${user?.role}/analytics`,
+      route: `/dashboard/lab/manage-users`,
       name: "Manage Users",
       icon: <FiUsers className="text-xl" />,
       role: ["administrator", "nurse", "doctor", "surgeon"],
     },
     {
-      route: `/dashboard/${user?.role}/analytics`,
+      route: `/dashboard/lab/manage-hospitals`,
       name: "Manage Hospital",
       icon: <TbBuildingHospital className="text-2xl" />,
       role: ["administrator", "nurse", "doctor", "surgeon"],
     },
     {
-      route: `/dashboard/${user?.role}/analytics`,
+      route: `/dashboard/lab/manage-roles`,
       name: "Manage Roles",
       icon: <RiCheckboxMultipleLine className="text-2xl" />,
       role: ["administrator", "nurse", "doctor", "surgeon"],
@@ -70,25 +73,9 @@ const AdminLayout = ({ children }) => {
   };
 
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 640) {
-        setIsSidebarOpen(false);
-      } else {
-        setIsSidebarOpen(true);
-      }
-    };
+    setIsSidebarOpen(!isMobile);
+  }, [isMobile]);
 
-    // Set initial state based on window width
-    handleResize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Cleanup event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   return (
     <div className="flex min-h-screen">

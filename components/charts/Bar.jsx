@@ -11,7 +11,7 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-
+import { useMediaQuery } from '@/utils/hooks/useMediaQuery';
 // Make sure to register BarElement and BarController
 ChartJS.register(
   CategoryScale,
@@ -24,6 +24,7 @@ ChartJS.register(
 );
 
 export function BarChart({ title, dates, sales }) {
+  const isMobile = useMediaQuery("(max-width: 768px)");
   // Your existing component logic
   // console.log( dates, sales, title , 'dates', 'sales', 'title', 'dates')
   const data = {
@@ -124,7 +125,7 @@ export function BarChart({ title, dates, sales }) {
         axis: "y", // This is optional to specify the y axis
         stacked: true, // Stack bars horizontally
         title: {
-          display: true,
+          display: !isMobile,
           text: "Security rating", // Text on the left side (y-axis)
           font: {
             size: 14,
@@ -143,7 +144,7 @@ export function BarChart({ title, dates, sales }) {
         axis: "x", // This is optional to specify the x axis
         stacked: true, // Stack bars horizontally
         title: {
-          display: true,
+          display: !isMobile,
           text: "Month", // Text at the bottom (x-axis)
           font: {
             size: 14,
