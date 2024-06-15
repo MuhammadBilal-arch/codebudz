@@ -39,19 +39,19 @@ const AdminLayout = ({ children }) => {
       role: ["administrator", "nurse", "doctor", "surgeon"],
     },
     {
-      route: `/dashboard/${user?.role}/patients`,
+      route: `/dashboard/${user?.role}/analytics`,
       name: "Manage Users",
       icon: <FiUsers className="text-xl" />,
       role: ["administrator", "nurse", "doctor", "surgeon"],
     },
     {
-      route: `/dashboard/${user?.role}/providers`,
+      route: `/dashboard/${user?.role}/analytics`,
       name: "Manage Hospital",
       icon: <TbBuildingHospital className="text-2xl" />,
       role: ["administrator", "nurse", "doctor", "surgeon"],
     },
     {
-      route: `/dashboard/${user?.role}/tests`,
+      route: `/dashboard/${user?.role}/analytics`,
       name: "Manage Roles",
       icon: <RiCheckboxMultipleLine className="text-2xl" />,
       role: ["administrator", "nurse", "doctor", "surgeon"],

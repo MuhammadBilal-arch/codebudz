@@ -5,7 +5,6 @@ import { memo } from "react";
 // import { cookies } from 'next/headers';
 import { FaRegHeart, HiOutlineUsers, TbBuildingHospital } from "@/utils/icons";
 import { AnalyticsCard } from "@/components/cards/analytics_card";
-import { PieChart } from "@/components/charts/pie";
 import { BarChart } from "@/components/charts/Bar";
 import { DoughnutChart } from "@/components/charts/donut";
 import { ChartCard } from "@/components/cards/charts_card";
