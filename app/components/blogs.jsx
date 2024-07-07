@@ -20,7 +20,7 @@ const Blogs = () => {
     {
       type: "Application",
       title: "Milestone Leads The Way in Digital Transformation Way.",
-      image: ASSETS.BLOGS.BLOG_2.src,
+      image: ASSETS.BLOGS.BLOG_3.src,
       background: "bg-primary bg-opacity-25",
     },
   ];

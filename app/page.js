@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Companies from "@/app/components/companies";
 import AboutCompany from "./components/aboutCompany";
 import Blogs from "./components/blogs";
+import Services from "@/components/carousels/services";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <MainCarousel/>
       <Companies/>
       <AboutCompany/>
+      <Services/>
       <Blogs/>
       <Footer/>
     </div>

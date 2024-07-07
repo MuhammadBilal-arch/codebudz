@@ -46,7 +46,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="text-white space-y-6 flex flex-col  text-left ">
+        <div className="text-white space-y-6 flex flex-col  text-left items-center lg:items-start ">
           <div className="font-semibold text-sm text-secondary uppercase">
             help
           </div>
