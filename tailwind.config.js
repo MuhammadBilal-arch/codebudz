@@ -9,13 +9,6 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    // container: {
-    //   center: true,
-    //   padding: "2rem",
-    //   screens: {
-    //     "2xl": "1400px",
-    //   },
-    // },
     extend: {
       backgroundImage: {
         "red-gradient": "linear-gradient(to bottom right, #880808, #FA5F55)",
@@ -34,89 +27,48 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        green: {
-          default:"",
-          "25":"#ECFDF3",
-          "100": "#12B76A",
-          "200": "#027A48",
 
-        },
         white: "#FFFFFF",
-        black: "#000000",
-        gray: {
-         DEFAULT: "#101828",
-         "100":"#98A2B3",
-
-        },
+        black: {
+          footer: "#1A1A1A",
+          text: "#333333"},
         red:"red",
         transparent: "transparent",
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))"  ,
-        purple: {
-          DEFAULT: "#010A3F",
-          "25":"#EBEEFF",
-          "50": "#B4BEFE",
-
-          "100": "#27316A",
-          "200": "#101828",
-        },
-        orange:{
-          DEFAULT: "#FC9803",
-        },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "#6E2482",
+          dark:"#8A226F"
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "#F7811F"
         },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+        yellow: {
+          DEFAULT: "#FCD240",
         },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+        blue:{
+          DEFAULT : "#32ADE6",
+          light: "#12C2E9",
         },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        gray: {
+
+          light: "#C8C8C8",
+          medium:"#F8FCFC",   
+
+          lightdark:'#909090',
+          dark: "#7C7C7C",
+          extradark: "#545454",       
+
+
+        }
       },
       boxShadow: {
         'equal': '0 0 5px rgba(0, 0, 0, 0.2)', // Adjust values as needed
       },
       fontFamily: {
-        quicksand: ['Quicksand', "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+        poppins: ['Poppins', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        jost: ['Jost', 'sans-serif'],
       },
-      keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
-      },
+
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",

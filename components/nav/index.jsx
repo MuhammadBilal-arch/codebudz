@@ -1,12 +1,15 @@
 "use client";
 import { ASSETS } from "@/public/path";
-import { GreenButton } from "../buttons";
+import { ColoredButton, GreenButton } from "../buttons";
 import Link from "next/link";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useEffect, useRef, useState } from "react";
 import { RiCloseFill } from "react-icons/ri";
+import { usePathname } from 'next/navigation';
 export const Nav = () => {
   const [drawerState, setDrawerState] = useState(false);
+  const pathname = usePathname();
   const drawerRef = useRef(null);
   const onToggleDrawer = () => {
     setDrawerState(!drawerState);
@@ -32,26 +35,51 @@ export const Nav = () => {
 
   return (
     <>
-      <nav className="z-[1000] px-5 sm:px-12 md:px-14 lg:px-20 absolute w-full flex items-center justify-between  p-4 text-white ">
+      <nav className="z-50  px-5 sm:px-12 md:px-14 lg:px-20 absolute poppins-family w-full flex items-center justify-between  p-4 text-white ">
         <Link href="/" className="cursor-pointer">
-          <img src={ASSETS.LOGO.LOGO.src} className="h-6 md:h-10" alt="logo" />
+          <img src={ASSETS.LOGO.LOGO.src} className="h-16 md:h-24" alt="logo" />
         </Link>
         <div className="hidden md:block ">
-          <ul className="flex space-x-4 lg:space-x-6 xl:space-x-8">
+          <ul className="flex space-x-4 lg:space-x-6 xl:space-x-8 font-medium text-sm md:text-sm lg:text-base 2xl:text-base">
             <li>
-              <Link href="/auth/signin">Providers</Link>
+              <Link
+                href="/"
+                className={pathname === "/" ? "nav-active" : "text-white "}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/toxicology">Patients</Link>
+              <Link
+                href="/about"
+                className={pathname === "/about" ? "nav-active" : "text-white "}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/news">News</Link>
+              <Link
+                href="/contact"
+                className={pathname === "/contact" ? "nav-active" : "text-white "}
+              >
+                Contact
+              </Link>
             </li>
             <li>
-              <Link href="/help">Contact</Link>
+              <Link
+                href="/portfolio"
+                className={pathname === "/portfolio" ? "nav-active" : "text-white "}
+              >
+                Portfolio
+              </Link>
             </li>
             <li>
-              <Link href="/payment">Pay Bill</Link>
+              <Link
+                href="/blog"
+                className={pathname === "/blog" ? "nav-active" : "text-white "}
+              >
+                Blog
+              </Link>
             </li>
           </ul>
         </div>
@@ -62,39 +90,45 @@ export const Nav = () => {
           />
         </div>
         <div className="hidden md:block">
-          <Link href="/toxicology">
-            <GreenButton title="Explore our tests" type={"button"} />
+          <Link href="/">
+            <ColoredButton
+              title="Schedule Call"
+              textColor={"text-white"}
+              background={"bg-primary"}
+              borderColor={"border-primary"}
+              type={"button"}
+              hoverTextColor={'text-primary'}
+            />
           </Link>
         </div>
       </nav>
       {drawerState && (
-        <div 
-        ref={drawerRef}
-        className="min-h-screen duration-300 fixed w-[250px] z-[1000] bg-white p-5">
+        <div
+          ref={drawerRef}
+          className="min-h-screen duration-300 fixed w-[250px] z-[1000] bg-white p-5"
+        >
           <div className="flex flex-col items-center  h-full text-black">
             <div className="flex items-center justify-end w-full">
-              <RiCloseFill 
-              onClick={onToggleDrawer}
-              className="text-red text-3xl cursor-pointer"/>
+              <RiCloseFill
+                onClick={onToggleDrawer}
+                className="text-red text-3xl cursor-pointer"
+              />
             </div>
-            <ul className="space-y-4 lg:space-x-6 xl:space-x-8">
+            <ul className="space-y-">
               <li>
-                <Link href="/auth/signin">Providers</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/toxicology">Patients</Link>
+                <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="/news">News</Link>
+                <Link href="/contact">Contact</Link>
               </li>
               <li>
-                <Link href="/help">Contact</Link>
+                <Link href="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <Link href="/payment">Pay Bill</Link>
-              </li>
-              <li>
-                <Link href="/toxicology">Explore our tests</Link>
+                <Link href="/payment">Blog</Link>
               </li>
             </ul>
           </div>

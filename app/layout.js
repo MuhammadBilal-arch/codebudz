@@ -2,13 +2,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import AOSWrapper from "@/components/aos-wrapper";
 import { ToastContainer } from "react-toastify";
-import { Providers } from "@/redux/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Inference Admin Panel",
-  description: "Inference Admin Panel",
+  title: "Codebudz",
+  description: "Codebudz",
 };
 
 export default function RootLayout({ children }) {
@@ -17,14 +16,12 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Inter:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&family=Jost&display=swap"
         />
       </head>
-      <body className={inter.className}>
-        <Providers>
-          <AOSWrapper>{children}</AOSWrapper>
-          <ToastContainer />
-        </Providers>
+      <body className="poppins-family">
+        <AOSWrapper>{children}</AOSWrapper>
+        <ToastContainer />
       </body>
     </html>
   );

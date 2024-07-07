@@ -1,11 +1,19 @@
-import Link from "next/link";
+import { Nav } from "@/components/nav";
+import MainCarousel from '@/components/carousels/main'
+import Footer from "@/components/footer";
+import Companies from "@/app/components/companies";
+import AboutCompany from "./components/aboutCompany";
+import Blogs from "./components/blogs";
 
 export default function Home() {
   return (
-    <div className="max-w-[1440px] mx-auto relative overflow-hidden flex items-center justify-center min-h-screen bg-purple">
-      <Link href="/dashboard/lab/analytics">
-        <button className="bg-orange w-32 h-10 text-white">Dashboard</button>
-      </Link>
+    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto">
+      <Nav />
+      <MainCarousel/>
+      <Companies/>
+      <AboutCompany/>
+      <Blogs/>
+      <Footer/>
     </div>
   );
 }
