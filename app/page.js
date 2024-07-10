@@ -7,6 +7,7 @@ import Blogs from "./components/blogs";
 import Services from "@/components/carousels/services";
 import TeamMembers from "@/components/carousels/teamMembers";
 import Team from "@/components/carousels/team";
+import OurCompany from "./components/ourCompany";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Companies/>
       <AboutCompany/>
       <Services/>
+      <OurCompany/>
       <Team/>
       <TeamMembers/>      
       <Blogs/>

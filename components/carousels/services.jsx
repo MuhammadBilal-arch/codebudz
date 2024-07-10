@@ -84,11 +84,11 @@ const Services = () => {
       className="bg-gray-extralight  text-center space-y-16 p-5 md:p-10 lg:p-24 overflow-hidden text-purple-primary"
     >
       <div>
-        <div className="w-10/12 mx-auto text-center flex flex-col items-center justify-center jost-family space-y-6">
+        <div className="md:w-10/12 mx-auto text-center flex flex-col items-center justify-center jost-family space-y-6">
           <div className="text-sm md:text-base lg:text-lg font-bold text-primary uppercase">
             Our services
           </div>
-          <div className="text-xl md:text-2xl lg:text-4xl font-semibold leading-12 text-black-text w-9/12">
+          <div className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-4xl font-semibold xl:leading-12 text-black-text lg:w-9/12">
             Offer a wide range of services to help businesses establish and
             enhance their onli ne presence.
           </div>
@@ -97,7 +97,7 @@ const Services = () => {
       <div className="relative">
         <Slider {...settings} ref={sliderRef}>
           {LANGUAGES.map((items, index) => (
-            <div className={`group rounded-lg px-3 text-center`} key={index}>
+            <div className={`group rounded-lg px-10 md:px-3 text-center`} key={index}>
               <div
                 className={`${items.background} min-h-[250px] cursor-pointer inset-0 p-5 h-full rounded-lg transition duration-300 delay-150 z-10`}
               >
@@ -120,13 +120,13 @@ const Services = () => {
           ))}
         </Slider>
         <div
-          className="absolute border border-primary top-1/2 transform -translate-y-1/2 -left-6 md:-left-10 cursor-pointer h-8 w-8 rounded-full  text-primary flex items-center justify-center text-xl"
+          className="absolute border border-primary top-1/2 transform -translate-y-1/2 left-0 sm:-left-6 md:-left-10 cursor-pointer h-8 w-8 rounded-full  text-primary flex items-center justify-center text-xl"
           onClick={handlePrevClick}
         >
           <HiChevronLeft />
         </div>
         <div
-          className="absolute border border-primary top-1/2 transform -translate-y-1/2 -right-6 md:-right-10 cursor-pointer h-8 w-8 rounded-full bg-aqua text-primary flex items-center justify-center text-xl"
+          className="absolute border border-primary top-1/2 transform -translate-y-1/2 right-0 sm:-right-6 md:-right-10 cursor-pointer h-8 w-8 rounded-full bg-aqua text-primary flex items-center justify-center text-xl"
           onClick={handleNextClick}
         >
           <HiChevronRight />

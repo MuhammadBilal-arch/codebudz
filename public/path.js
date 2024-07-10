@@ -32,6 +32,7 @@ import TEAM_4 from './images/team/4.png'
 
 // MIX
 import HORIZONTAL_DIVIDER from './images/mix/horizontal-divider.png'
+import OUR_COMPANY from './images/mix/our-company.png'
 
 
 export const ASSETS = {
@@ -58,7 +59,8 @@ export const ASSETS = {
   },
   MIX:{
     ABOUT_COMPANY,
-    HORIZONTAL_DIVIDER
+    HORIZONTAL_DIVIDER,
+    OUR_COMPANY
   },
   TEAM_MEMBERS:{
     TEAM_MEMBER_1,

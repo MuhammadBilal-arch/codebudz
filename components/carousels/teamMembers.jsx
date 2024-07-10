@@ -85,7 +85,7 @@ const TeamMembers = () => {
       className="bg-[#F8FCFC]  text-center space-y-16 p-5 md:p-10 lg:p-24 overflow-hidden text-purple-primary"
     >
       <div>
-        <div className="w-10/12 mx-auto text-center flex flex-col items-center justify-center poppins-family space-y-6">
+        <div className="w-10/12 mx-auto text-center flex flex-col items-center justify-center poppins-family space-y-2 md:space-y-4 lg:space-y-6">
           <div className="text-sm md:text-base lg:text-lg font-medium text-secondary uppercase">
             Team Member
           </div>
@@ -97,7 +97,7 @@ const TeamMembers = () => {
       <div className="relative">
         <Slider {...settings} ref={sliderRef}>
           {LANGUAGES.map((items, index) => (
-            <div className={`group rounded-lg px-3 text-center`} key={index}>
+            <div className={`group rounded-lg px-10 md:px-3 text-center`} key={index}>
               <div
                 className={`min-h-[250px] cursor-pointer inset-0 p-5 h-full rounded-lg transition duration-300 delay-150 z-10`}
               >
@@ -121,13 +121,13 @@ const TeamMembers = () => {
           ))}
         </Slider>
         <div
-          className="absolute border border-primary top-1/2 transform -translate-y-1/2 -left-6 md:-left-10 cursor-pointer h-8 w-8 rounded-full  text-primary flex items-center justify-center text-xl"
+          className="absolute border border-primary top-1/2 transform -translate-y-1/2 left-0 sm:-left-6 md:-left-10 cursor-pointer h-8 w-8 rounded-full  text-primary flex items-center justify-center text-xl"
           onClick={handlePrevClick}
         >
           <HiChevronLeft />
         </div>
         <div
-          className="absolute border border-primary top-1/2 transform -translate-y-1/2 -right-6 md:-right-10 cursor-pointer h-8 w-8 rounded-full bg-aqua text-primary flex items-center justify-center text-xl"
+          className="absolute border border-primary top-1/2 transform -translate-y-1/2 right-0 sm:-right-6 md:-right-10 cursor-pointer h-8 w-8 rounded-full bg-aqua text-primary flex items-center justify-center text-xl"
           onClick={handleNextClick}
         >
           <HiChevronRight />

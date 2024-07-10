@@ -97,10 +97,10 @@ const Team = () => {
       <div className="relative pb-16">
         <Slider {...settings} ref={sliderRef}>
           {LANGUAGES.map((items, index) => (
-            <div className="group rounded-lg px-3 text-center" key={index}>
+            <div className="group rounded-lg px-10 md:px-3 text-center" key={index}>
               <div className="min-h-[250px] cursor-pointer inset-0  h-full rounded-lg transition duration-300 delay-150 z-10">
-                <div className="rounded-t-[48%]  rounded-b-[30%] text-center overflow-hidden bg-white rounded-md flex flex-col items-center justify-center">
-                  <div>
+                <div className="rounded-t-[48%] rounded-b-[30%] text-center overflow-hidden  rounded-md flex flex-col items-center justify-center">
+                  <div className="w-full">
                     <img
                       src={items.image}
                       alt=""
