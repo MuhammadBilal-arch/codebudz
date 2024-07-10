@@ -36,7 +36,8 @@ module.exports = {
         transparent: "transparent",
         primary: {
           DEFAULT: "#6E2482",
-          dark:"#8A226F"
+          dark:"#8A226F",
+          medium: "#6D56FE"
         },
         secondary: {
           DEFAULT: "#F7811F"
@@ -47,6 +48,9 @@ module.exports = {
         blue:{
           DEFAULT : "#32ADE6",
           light: "#12C2E9",
+          medium: "#98DBDB",
+          extraLight:"#F8FCFC",   
+
         },
         gray: {
 

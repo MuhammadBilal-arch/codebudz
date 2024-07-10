@@ -18,6 +18,22 @@ import BLOG_1 from './images/blogs/1.png'
 import BLOG_2 from './images/blogs/2.png'
 import BLOG_3 from './images/blogs/3.png'
 
+// TEAM MEMBERS
+import TEAM_MEMBER_1 from './images/teamMembers/1.png'
+import TEAM_MEMBER_2 from './images/teamMembers/2.png'
+import TEAM_MEMBER_3 from './images/teamMembers/3.png'
+import TEAM_MEMBER_4 from './images/teamMembers/4.png'
+
+// TEAM
+import TEAM_1 from './images/team/1.png'
+import TEAM_2 from './images/team/2.png'
+import TEAM_3 from './images/team/3.png'
+import TEAM_4 from './images/team/4.png'
+
+// MIX
+import HORIZONTAL_DIVIDER from './images/mix/horizontal-divider.png'
+
+
 export const ASSETS = {
   LOGO: {
     LOGO,
@@ -41,7 +57,20 @@ export const ASSETS = {
     COMPANY_5
   },
   MIX:{
-    ABOUT_COMPANY
+    ABOUT_COMPANY,
+    HORIZONTAL_DIVIDER
+  },
+  TEAM_MEMBERS:{
+    TEAM_MEMBER_1,
+    TEAM_MEMBER_2,
+    TEAM_MEMBER_3,
+    TEAM_MEMBER_4,
+  },
+  TEAM:{
+    TEAM_1,
+    TEAM_2,
+    TEAM_3,
+    TEAM_4
   },
   CAROUSELS:{
     MAIN:{
