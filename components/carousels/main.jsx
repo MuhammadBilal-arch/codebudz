@@ -51,9 +51,9 @@ const MainCarousel = () => {
                   <img
                     src={item.IMG.src}
                     alt={`Slide ${index + 1}`}
-                    className="min-h-96 md:min-h-[60vh] lg:min-h-[80vh] w-full object-cover cursor-pointer"
+                    className=" w-full min-h-96 md:min-h-full object-cover cursor-pointer"
                   />
-                  <div className="absolute z-10 top-0 bottom-0 md:w-8/12 left-0 right-0 mx-auto  lg:min-h-[80vh] flex items-center justify-center">
+                  <div className="absolute z-10 top-0 bottom-0 md:w-8/12 left-0 right-0 mx-auto  flex items-center justify-center">
                     <div className="flex flex-col items-center justify-center space-y-3 md:space-y-12">
                       <div className="space-y-1 sm:space-y-3 md:space-y-10 flex-col font-extrabold text-2xl sm:text-2xl md:text-4xl lg:text-[65px]">
                         <h1 className="text-white">

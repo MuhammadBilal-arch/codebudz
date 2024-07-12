@@ -1,16 +1,28 @@
 import { ASSETS } from "@/public/path";
+import Image from "next/image";
 import React, { memo } from "react";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 const OurCompany = () => {
   return (
     <div
-      className="relative lg:max-h-screen bg-cover bg-top bg-no-repeat px-5 md:px-10 lg:px-24 py-20 space-y-6 poppins-family"
-      style={{ backgroundImage: `url(${ASSETS.BACKGROUND.BG_ABOUT.src})` }}
+      className="relative overflow-hidden bg-blue-extraLight  lg:max-h-screen bg-cover bg-top bg-no-repeat px-5 md:px-10 lg:px-24 py-20 space-y-6 poppins-family"
+      // style={{ backgroundImage: `url(${ASSETS.BACKGROUND.BG_ABOUT.src})` }}
     >
+      <div className="absolute inset-0 animate-moveUpDown h-full top-0">
+      <Image
+        src={ASSETS.BACKGROUND.BG_ABOUT.src}
+        alt=""
+        fill={true}
+
+        className="object-cover object-top h-full"
+      />
+      </div>
+
+
       <div className="flex items-center flex-col lg:flex-row space-y-12 md:space-y-0">
         <div className="lg:w-1/2">
           <div className="flex items-center justify-between space-x-2">
-            <div className="lg:w-1/2  space-y-6">
+            <div className="space-y-6">
               <div className="text-sm md:text-base lg:text-lg font-bold text-primary uppercase">
                 Our Company
               </div>

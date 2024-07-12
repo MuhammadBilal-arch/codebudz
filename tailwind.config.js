@@ -72,8 +72,25 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
         jost: ['Jost', 'sans-serif'],
       },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        move: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        moveUpDown: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-2%)' },
+        },
+      },
 
       animation: {
+        rotate: 'rotate 10s linear infinite',
+        move: 'move 5s ease-in-out infinite',
+        moveUpDown: 'moveUpDown 10s ease-in-out infinite alternate',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
