@@ -8,6 +8,7 @@ import COMPANY_4 from "./images/companies/4.png";
 import COMPANY_5 from "./images/companies/5.png";
 // BACKGROUND IMAGES
 import BG_ABOUT from "./images/backgrounds/about.png";
+import BG_HERO from "./images/backgrounds/hero.png";
 import ABOUT_COMPANY from "./images/mix/about-company.png";
 
 // LOGOS
@@ -43,7 +44,8 @@ export const ASSETS = {
     AWARD
   },
   BACKGROUND:{
-    BG_ABOUT
+    BG_ABOUT,
+    BG_HERO
   },
   BLOGS:{
     BLOG_1,

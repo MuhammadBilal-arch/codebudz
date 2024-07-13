@@ -100,6 +100,29 @@ module.exports = {
       }
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.text-stroke': {
+          'color': 'transparent',
+          '-webkit-text-stroke': '1px black', // Adjust stroke width and color here
+        },
+        '.text-stroke-white': {
+          'color': 'transparent',
+          '-webkit-text-stroke': '1px white', // White stroke
+        },
+        '.text-stroke-red': {
+          'color': 'transparent',
+          '-webkit-text-stroke': '1px red', // Red stroke
+        },
+        '.text-stroke-2': {
+          '-webkit-text-stroke-width': '2px', // Adjust stroke width
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+
+  ],
 
 }
