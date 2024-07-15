@@ -35,6 +35,15 @@ import TEAM_4 from './images/team/4.png'
 import HORIZONTAL_DIVIDER from './images/mix/horizontal-divider.png'
 import OUR_COMPANY from './images/mix/our-company.png'
 
+// ABOUT
+import MISSION_1 from './images/about/mission/1.svg'
+import MISSION_2 from './images/about/mission/2.svg'
+import MISSION_3 from './images/about/mission/3.svg'
+import MISSION_4 from './images/about/mission/4.svg'
+import VISION from './images/about/vision.png'
+
+// CONTACTS
+import CONTACTS from './images/contacts/contacts.png'
 
 export const ASSETS = {
   LOGO: {
@@ -76,10 +85,20 @@ export const ASSETS = {
     TEAM_3,
     TEAM_4
   },
+  ABOUT:{
+    VISION,
+    MISSION_1,
+    MISSION_2,
+    MISSION_3,
+    MISSION_4
+  },
   CAROUSELS:{
     MAIN:{
       MAIN_SLIDE_1
     },
+  },
+  CONTACTS:{
+    CONTACTS
   }
 
 };

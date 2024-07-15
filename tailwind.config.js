@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "red-gradient": "linear-gradient(to bottom right, #880808, #FA5F55)",
+        "yellow-gradient": "linear-gradient(to right,  #F7811F,#6E2482)",
         "green-gradient": "linear-gradient(to right, #145B13, #1EB61A)",
         "green-secondary-gradient":
           "linear-gradient(to right,#1EB61A, #145B13 )",
@@ -37,7 +38,10 @@ module.exports = {
         primary: {
           DEFAULT: "#6E2482",
           dark:"#8A226F",
-          medium: "#6D56FE"
+          medium: "#6D56FE",
+        },
+        pink:{
+          medium:'#C11574'
         },
         secondary: {
           DEFAULT: "#F7811F"
@@ -50,6 +54,7 @@ module.exports = {
           light: "#12C2E9",
           medium: "#98DBDB",
           extraLight:"#F8FCFC",   
+          indigo: '#3538CD'
 
         },
         gray: {
@@ -59,7 +64,8 @@ module.exports = {
 
           lightdark:'#909090',
           dark: "#7C7C7C",
-          extradark: "#545454",       
+          extradark: "#545454",   
+          extradark2: "#2E353D",    
 
 
         }
