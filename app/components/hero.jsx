@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
         <div className="text-white text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl flex items-center justify-center font-semibold space-x-1">
           <span>
-            Cod<span className="text-blue">eb</span>udz
+            Cod<span className="text-blue-light">eb</span>udz
           </span>{" "}
           <MdArrowForwardIos /> <span>{onChangeTextColor()}</span>
         </div>

@@ -40,6 +40,7 @@ import MISSION_1 from './images/about/mission/1.svg'
 import MISSION_2 from './images/about/mission/2.svg'
 import MISSION_3 from './images/about/mission/3.svg'
 import MISSION_4 from './images/about/mission/4.svg'
+import ABOUT_MAIN from './images/about/main.jpg'
 import VISION from './images/about/vision.png'
 
 // CONTACTS
@@ -88,6 +89,7 @@ export const ASSETS = {
     TEAM_4
   },
   ABOUT:{
+    ABOUT_MAIN,
     VISION,
     MISSION_1,
     MISSION_2,

@@ -37,7 +37,7 @@ export const Nav = () => {
     <>
       <nav className="z-50  px-5 sm:px-12 md:px-14 lg:px-20 absolute poppins-family w-full flex items-center justify-between  p-4 text-white ">
         <Link href="/" className="cursor-pointer">
-          <img src={ASSETS.LOGO.LOGO.src} className="h-16 md:h-24" alt="logo" />
+          <img src={ASSETS.LOGO.LOGO.src} className="h-10 md:h-14" alt="logo" />
         </Link>
         <div className="hidden md:block ">
           <ul className="flex space-x-4 lg:space-x-6 xl:space-x-8 font-medium text-sm md:text-sm lg:text-base 2xl:text-base">

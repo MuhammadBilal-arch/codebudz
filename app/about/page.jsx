@@ -33,7 +33,7 @@ const About = () => {
       <Hero />
       <div className="w-full mx-auto poppins-family space-y-10">
         {/* ABOUT COMPANY */}
-        <div className="flex poppins-family p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24">
+        <div className="flex poppins-family px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 md:py-14">
           <div className="space-y-4 text-gray-extradark poppins-family text-xs text-left sm:text-sm xl:text-base">
             <img
               data-aos="fade-down"
@@ -41,7 +41,7 @@ const About = () => {
               data-aos-duration="2000"
               className="float-right sm:mb-2 pl-2 md:pl-4 pb-4 w-32 h-32 sm:w-24 sm:h-24 md:w-80 md:h-full lg:w-1/2 
                         duration-1000 object-cover"
-              src={ASSETS.ABOUT.VISION.src}
+              src={ASSETS.ABOUT.ABOUT_MAIN.src}
               alt=""
             />
             <div className="space-y-4">
@@ -78,7 +78,7 @@ const About = () => {
           </div>
         </div>
         {/* OUR MISSION */}
-        <div className="flex bg-blue-extraLight flex-col items-center justify-center space-y-8 xl:space-y-10 w-full p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24">
+        <div className="flex bg-blue-extraLight flex-col items-center justify-center space-y-8 xl:space-y-10 w-full px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 md:py-14">
           <div className="space-y-4 md:w-10/12 lg:w-8/12 max-auto text-center">
             <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text ">
               <span className="text-secondary">Our</span> Mission
@@ -119,7 +119,7 @@ const About = () => {
           </button>
         </div>
         {/* OUR VISION */}
-        <div className="flex p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24">
+        <div className="flex px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="space-y-2 text-gray-extradark poppins-family text-xs text-left sm:text-sm xl:text-base">
             <img
               data-aos="fade-down"
@@ -136,7 +136,7 @@ const About = () => {
               className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text pb-10"
             >
               Our Vision
-              <span className="text-secondary">Every</span> Project.
+              <span className="text-secondary"> Every</span> Project.
             </div>
             <span
               data-aos="fade-right"
