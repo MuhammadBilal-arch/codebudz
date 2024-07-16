@@ -16,10 +16,10 @@ export const ColoredButton = memo(
         type={type || "button"}
         onClick={onHandleClick}
         className={`${background} min-w-32 text-center ${width}
-        flex items-center justify-center  border-2 ${borderColor} 
+        flex items-center justify-center  border-2 ${borderColor} ${textColor}  
         transition duration-300 delay-100 hover:text-black 
         hover:bg-white hover:${borderColor} hover:${hoverTextColor} whitespace-nowrap 
-        items-center py-1 md:py-1.5 px-4 md:px-5 xl:px-8 ${textColor} 
+        items-center py-1 md:py-1.5 px-4 md:px-5 xl:px-8 
         rounded-md text-sm lg:text-base  2xl:text-lg`}
       >
         {title}

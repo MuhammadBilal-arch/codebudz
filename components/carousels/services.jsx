@@ -23,12 +23,12 @@ const Services = () => {
     {
       heading: "UI UX Design",
       desc: "Aliquam eos justo, posuere lbortivive rra laoreet matti ullamc oerposu",
-      background: "bg-yellow",
+      background: "bg-secondary",
     },
     {
       heading: "Consultancy For IT",
       desc: "Aliquam eos justo, posuere lbortivive rra laoreet matti ullamc oerposu",
-      background: "bg-blue-light",
+      background: "bg-primary",
     },
   ];
 
