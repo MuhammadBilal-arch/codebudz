@@ -9,6 +9,8 @@ import COMPANY_5 from "./images/companies/5.png";
 // BACKGROUND IMAGES
 import BG_ABOUT from "./images/backgrounds/about.png";
 import BG_HERO from "./images/backgrounds/hero.png";
+import BG_COMPANY from "./images/backgrounds/our-company.png";
+import BG_NORMAL from "./images/backgrounds/normal.png";
 import ABOUT_COMPANY from "./images/mix/about-company.png";
 
 // LOGOS
@@ -34,6 +36,14 @@ import TEAM_4 from './images/team/4.png'
 // MIX
 import HORIZONTAL_DIVIDER from './images/mix/horizontal-divider.png'
 import OUR_COMPANY from './images/mix/our-company.png'
+import CHART from './images/mix/charts.jpg'
+import CONSULTANCY from './images/mix/consultancy.webp'
+import IT from './images/mix/it.jpg'
+import MAIN from './images/mix/main.jpg'
+import MOBILE_DEVELOPMENT from './images/mix/mobile-development.png'
+import WEB_DEVELOPMENT from './images/mix/web-development.webp'
+import TECH from './images/mix/tech.jpeg'
+import UIUX from './images/mix/uiux.png'
 
 // ABOUT
 import MISSION_1 from './images/about/mission/1.svg'
@@ -57,7 +67,9 @@ export const ASSETS = {
   },
   BACKGROUND:{
     BG_ABOUT,
-    BG_HERO
+    BG_HERO,
+    BG_COMPANY,
+    BG_NORMAL
   },
   BLOGS:{
     BLOG_1,
@@ -74,7 +86,15 @@ export const ASSETS = {
   MIX:{
     ABOUT_COMPANY,
     HORIZONTAL_DIVIDER,
-    OUR_COMPANY
+    OUR_COMPANY,
+    CHART,
+    CONSULTANCY,
+    IT,
+    MAIN,
+    MOBILE_DEVELOPMENT,
+    WEB_DEVELOPMENT,
+    TECH,
+    UIUX
   },
   TEAM_MEMBERS:{
     TEAM_MEMBER_1,

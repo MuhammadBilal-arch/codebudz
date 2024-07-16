@@ -10,15 +10,12 @@ const OurCompany = () => {
     >
       <div className="absolute inset-0 animate-moveUpDown h-full top-0">
       <Image
-        src={ASSETS.BACKGROUND.BG_ABOUT.src}
+        src={ASSETS.BACKGROUND.BG_COMPANY.src}
         alt=""
         fill={true}
-
         className="object-cover object-top h-full"
       />
       </div>
-
-
       <div className="flex items-center flex-col lg:flex-row space-y-12 md:space-y-0">
         <div className="lg:w-1/2">
           <div className="flex items-center justify-between space-x-2">
@@ -42,11 +39,11 @@ const OurCompany = () => {
           </div>
         </div>
         <div className=" lg:w-1/2 lg:flex items-center justify-end">
-          <div className="max-h-[200px] relative md:max-h-[300px] xl:max-h-[400px]">
+          <div className="max-h-[200px] relative md:max-h-[300px] xl:max-h-[300px]">
             <img
-              src={ASSETS.MIX.OUR_COMPANY.src}
+              src={ASSETS.MIX.CHART.src}
               alt=""
-              className="object-cover max-h-[200px] lg:max-h-[300px] xl:max-h-[400px]"
+              className="object-cover max-h-[200px] lg:max-h-[300px] xl:max-h-[300px] "
             />
             <div
               data-aos="fade-right"

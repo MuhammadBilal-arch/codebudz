@@ -12,22 +12,22 @@ const portfolio = () => {
     {
       id: 1,
       title: "Web Development",
-      url: ASSETS.BLOGS.BLOG_1.src,
+      url: ASSETS.MIX.WEB_DEVELOPMENT.src,
     },
     {
       id: 2,
       title: "Design",
-      url: ASSETS.BLOGS.BLOG_1.src,
+      url: ASSETS.MIX.UIUX.src,
     },
     {
       id: 3,
       title: "Application Development",
-      url: ASSETS.BLOGS.BLOG_1.src,
+      url: ASSETS.MIX.MOBILE_DEVELOPMENT.src,
     },
     {
       id: 1,
       title: "IT Consultancy",
-      url: ASSETS.BLOGS.BLOG_1.src,
+      url: ASSETS.MIX.CONSULTANCY.src,
     },
   ];
   return (

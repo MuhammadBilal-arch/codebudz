@@ -12,8 +12,8 @@ const Footer = () => {
               px-5 sm:px-12 md:px-14 lg:px-20 pt-10`}
     >
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
-        <div className="space-y-2">
-          <img src={ASSETS.LOGO.LOGO.src} alt="" className="h-14 xl:h-16" />
+        <div className="space-y-8">
+          <img src={ASSETS.LOGO.LOGO.src} alt="" className="h-10 xl:h-14" />
           <p className="text-white text-sm xl:text-base">
             Clarity gives you the blocks and components you need to create a
             truly professional website.
@@ -101,7 +101,7 @@ const Footer = () => {
       </div>
       <hr className="text-white mt-10" />
       <div className="flex items-center justify-center text-white py-6 text-xs md:text-sm">
-        <div>© Copyright 2022. All rights reserved by ClarityUI.</div>
+        <div>© Copyright 2022. All rights reserved.</div>
       </div>
     </main>
   );

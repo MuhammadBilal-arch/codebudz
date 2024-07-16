@@ -12,10 +12,11 @@ const MainCarousel = () => {
   const sliderRef = useRef(null);
 
   const SLIDES = [
-    { IMG: ASSETS.CAROUSELS.MAIN.MAIN_SLIDE_1 },
-    { IMG: ASSETS.CAROUSELS.MAIN.MAIN_SLIDE_1 },
-    { IMG: ASSETS.CAROUSELS.MAIN.MAIN_SLIDE_1 },
-    { IMG: ASSETS.CAROUSELS.MAIN.MAIN_SLIDE_1 },
+    // { IMG: ASSETS.CAROUSELS.MAIN.MAIN_SLIDE_1 },
+    { IMG: ASSETS.MIX.MAIN },
+    { IMG: ASSETS.MIX.CHART },
+    { IMG: ASSETS.MIX.UIUX }, 
+
   ];
 
   const settings = {
@@ -47,12 +48,15 @@ const MainCarousel = () => {
           <div className="relative">
             <Slider {...settings} ref={sliderRef}>
               {SLIDES.map((item, index) => (
-                <div key={index} className="relative">
+                <div key={index} className="relative ">
                   <img
                     src={item.IMG.src}
                     alt={`Slide ${index + 1}`}
-                    className=" w-full min-h-96 md:min-h-full object-cover cursor-pointer"
+                    className=" w-full min-h-96 md:min-h-ful max-h-[600px] object-cover cursor-pointer"
                   />
+                  <div className="absolute left-0 top-0 inset w-full h-full bg-black-footer bg-opacity-60 min-h-96 md:min-h-ful max-h-[600px] z-10">
+
+                  </div>
                   <div className="absolute z-10 top-0 bottom-0 md:w-8/12 left-0 right-0 mx-auto  flex items-center justify-center">
                     <div className="flex flex-col items-center justify-center space-y-3 md:space-y-12">
                       <div className="space-y-1 sm:space-y-3 md:space-y-10 flex-col font-extrabold text-2xl sm:text-2xl md:text-4xl lg:text-[65px]">
