@@ -44,6 +44,8 @@ import VISION from './images/about/vision.png'
 
 // CONTACTS
 import CONTACTS from './images/contacts/contacts.png'
+// SERVICES
+import SERVICES from './images/services/1.png'
 
 export const ASSETS = {
   LOGO: {
@@ -99,6 +101,9 @@ export const ASSETS = {
   },
   CONTACTS:{
     CONTACTS
+  },
+  SERVICES:{
+    SERVICES
   }
 
 };

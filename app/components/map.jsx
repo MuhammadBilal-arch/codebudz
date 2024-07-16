@@ -126,10 +126,10 @@ const Map = ({
         </Marker>
       </GoogleMap>
       <div
-        className="absolute bg-white md:h-20 w-10/12  -bottom-7 z-[1000]
-      grid md:grid-cols-3 gap-4 poppins-family text-sm md:text-base"
+        className="absolute bg-white p-5 md:h-20 w-10/12  -bottom-7 z-[1000] 
+      grid md:grid-cols-3 gap-6 md:gap-4 poppins-family text-sm md:text-base"
       >
-        <div className="flex items-center justify-center space-x-4">
+        <div className="flex items-center md:justify-center space-x-4">
           <div className="bg-primary h-10 w-10 rounded-full flex items-center justify-center">
             <PiMapPinFill className="text-white text-xl" />
           </div>
@@ -139,7 +139,7 @@ const Map = ({
             14851 New York, USA
           </div>
         </div>
-        <div className="flex items-center justify-center space-x-4">
+        <div className="flex items-center md:justify-center space-x-4">
           <div className="bg-primary h-10 w-10 rounded-full flex items-center justify-center">
             <BsFillTelephoneFill className="text-white text-xl" />
           </div>
@@ -148,7 +148,7 @@ const Map = ({
             <div className="font-medium">+088 11 22 00 44</div>
           </div>
         </div>
-        <div className="flex items-center justify-center space-x-4">
+        <div className="flex items-center md:justify-center space-x-4">
           <div className="bg-primary h-10 w-10 rounded-full flex items-center justify-center">
             <BsFillTelephoneFill className="text-white text-xl" />
           </div>

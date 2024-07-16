@@ -75,6 +75,14 @@ export const Nav = () => {
             </li>
             <li>
               <Link
+                href="services"
+                className={pathname === "services" ? "nav-active" : "text-white "}
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/blog"
                 className={pathname === "/blog" ? "nav-active" : "text-white "}
               >

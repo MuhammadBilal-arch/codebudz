@@ -82,7 +82,7 @@ const TeamMembers = () => {
   return (
     <div
       id="services"
-      className="bg-[#F8FCFC]  text-center space-y-16 p-5 md:p-10 lg:p-24 overflow-hidden text-purple-primary"
+      className="bg-[#F8FCFC]  text-center space-y-16 px-5 md:px-10 lg:px-24 py-14 overflow-hidden text-purple-primary"
     >
       <div>
         <div className="w-10/12 mx-auto text-center flex flex-col items-center justify-center poppins-family space-y-2 md:space-y-4 lg:space-y-6">

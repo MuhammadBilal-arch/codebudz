@@ -25,23 +25,23 @@ const Footer = () => {
           </div>
           <ul className="space-y-4">
             <li>
-              <Link href="/" className="text-white">
+              <Link href="/about" className="text-white">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-white">
-                Features
+              <Link href="/services" className="text-white">
+                Services
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-white">
-                Works
+              <Link href="/contact" className="text-white">
+                Contact 
               </Link>
             </li>
             <li>
-              <Link href="/" className="text-white">
-                Career
+              <Link href="/blog" className="text-white">
+                Blogs
               </Link>
             </li>
           </ul>
@@ -51,7 +51,7 @@ const Footer = () => {
             help
           </div>
           <ul className="space-y-4">
-            <li>
+            {/* <li>
               <Link href="/" className="text-white">
                 Customer Support
               </Link>
@@ -60,7 +60,7 @@ const Footer = () => {
               <Link href="/" className="text-white">
                 Delivery Details
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/" className="text-white">
                 Terns & Conditions
