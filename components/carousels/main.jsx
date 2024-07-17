@@ -61,11 +61,11 @@ const MainCarousel = () => {
                     <div className="flex flex-col items-center justify-center space-y-3 md:space-y-12">
                       <div className="space-y-1 sm:space-y-3 md:space-y-10 flex-col font-extrabold text-2xl sm:text-2xl md:text-4xl lg:text-[65px]">
                         <h1 className="text-white">
-                          C<span className="text-yellow">re</span>ativ
-                          <span className="text-blue">e</span>
+                          C<span className="text-secondary">re</span>ativ
+                          <span className="text-primary">e</span>
                         </h1>
                         <h1 className="text-white">
-                          <span className="text-blue">Di</span>gital A
+                          <span className="text-primary">Di</span>gital A
                           <span className="text-secondary">ge</span>ncy
                         </h1>
                       </div>
