@@ -97,7 +97,7 @@ module.exports = {
       },
 
       animation: {
-        rotate: 'rotate 10s linear infinite',
+        rotate: 'rotate 30s linear infinite',
         move: 'move 5s ease-in-out infinite',
         moveUpDown: 'moveUpDown 20s ease-in-out infinite alternate',
         "accordion-down": "accordion-down 0.2s ease-out",
