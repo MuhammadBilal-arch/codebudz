@@ -15,13 +15,13 @@ const Hero = () => {
     const name = pathname.replace("/", "");
     switch(name){
       case 'contact':
-        return <span>Conta<span className="text-yellow">ct</span></span>
+        return <span>Conta<span className="text-secondary">ct</span></span>
       case 'about':
         return <span>Ab<span className="text-secondary">o</span>ut</span>
       case 'blog':
-        return <span>Bl<span className="text-blue">o</span>g</span>
+        return <span>Bl<span className="text-secondary">o</span>g</span>
       case 'services':
-        return <span>S<span className="text-yellow">e</span>rvices</span>
+        return <span>S<span className="text-secondary">e</span>rvices</span>
       case 'portfolio':
         return <span>Portf<span className="text-secondary">olio</span></span>
     }
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
         <div className="text-white text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl flex items-center justify-center font-semibold space-x-1">
           <span>
-            Cod<span className="text-blue-light">eb</span>udz
+            Cod<span className="text-primary">eb</span>udz
           </span>{" "}
           <MdArrowForwardIos /> <span>{onChangeTextColor()}</span>
         </div>

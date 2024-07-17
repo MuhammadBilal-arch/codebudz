@@ -90,14 +90,16 @@ module.exports = {
         },
         moveUpDown: {
           '0%, 100%': { transform: 'translateY(0)' },
+          '30%': { transform: 'translateX(-2%)' },
           '50%': { transform: 'translateY(-2%)' },
+          '70%': { transform: 'translateX(-2%)' },
         },
       },
 
       animation: {
         rotate: 'rotate 10s linear infinite',
         move: 'move 5s ease-in-out infinite',
-        moveUpDown: 'moveUpDown 10s ease-in-out infinite alternate',
+        moveUpDown: 'moveUpDown 20s ease-in-out infinite alternate',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },

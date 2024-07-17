@@ -31,7 +31,7 @@ const portfolio = () => {
     },
   ];
   return (
-    <div>
+    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto overflow-hidden">
       <Nav />
       <Hero />
       <div className="w-full mx-auto p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 poppins-family space-y-16">

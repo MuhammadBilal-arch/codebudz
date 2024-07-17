@@ -43,7 +43,7 @@ const Services = () => {
 
   
   return (
-    <div>
+    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto overflow-hidden">
       <Nav />
       <Hero />
       <div className="w-full mx-auto poppins-family space-y-14">
