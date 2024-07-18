@@ -89,7 +89,7 @@ const Team = () => {
         <div className="text-2xl md:text-4xl lg:text-5xl xl:text-[65px] poppins-family font-semibold text-black-text w-9/12">
           Team
         </div>
-        <div className="text-black-text text-xs md:text-sm lg:text-base font-normal w-6/12">
+        <div className="text-black-text text-xs md:text-sm lg:text-base font-normal md:w-6/12">
           Creating a concise and effective design studio brief is crucial for
           outlining your business, its services.
         </div>

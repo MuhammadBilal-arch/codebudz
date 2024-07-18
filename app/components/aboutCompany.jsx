@@ -19,8 +19,8 @@ const AboutCompany = () => {
       <div className="text-sm md:text-base lg:text-lg font-bold text-primary uppercase">
         About Company
       </div>
-      <div className="flex items-center flex-col lg:flex-row space-y-4 lg:space-y-0">
-        <div className="lg:w-1/2">
+      <div className="flex items-center flex-col md:flex-row space-y-4 lg:space-y-0 ">
+        <div className="md:w-1/2">
           <div className="space-y-4">
             <div className="flex items-center justify-between space-x-2">
               <div className="md               :w-1/2 lg:w-full">
@@ -35,13 +35,13 @@ const AboutCompany = () => {
                   loborti viverra laoreet mat ullamcorper posue viverra
                 </p>
               </div>
-              <div className="lg:hidden md:w-1/2 flex items-center justify-center">
+              {/* <div className="lg:hidden md:w-1/2 flex items-center justify-center">
                 <img
                   src={ASSETS.MIX.ABOUT_COMPANY.src}
                   alt=""
                   className="object-cover max-w-[100px] sm:max-w-[150px] md:max-h-[200px]  "
                 />
-              </div>
+              </div> */}
             </div>
             <div className="text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl space-y-4 ">
               <div className="text-black-text font-extrabold">
@@ -86,7 +86,7 @@ const AboutCompany = () => {
                 </div>
                 <div
                   data-aos="fade-up"
-                  className="bg-primary space-y-2 md:space-y-4 rounded-t-[30px] md:rounded-t-[50px] min-w-[100px] md:min-w-[180px] py-12 h-full text-center flex flex-col items-center"
+                  className="bg-primary space-y-2 md:space-y-4 rounded-t-[30px] md:rounded-t-[50px] min-w-[100px] sm:min-w-[150px] md:min-w-[180px] py-12 h-full text-center flex flex-col items-center"
                 >
                   <img
                     src={ASSETS.ICON.AWARD.src}
@@ -106,15 +106,41 @@ const AboutCompany = () => {
             </div>
           </div>
         </div>
-        <img
-            data-aos="fade-down"
-            data-aos-delay="50"
-            data-aos-duration="2000"
-            className="float-right sm:mb-2 pl-2 md:pl-4 pb-4 w-32 h-32 sm:w-24 sm:h-24 md:w-80 md:h-96 lg:w-1/2 
-                        duration-1000 object-contain"
-            src={ASSETS.MIX.ABOUT_COMPANY.src}
-            alt=""
-          />
+        <div
+          data-aos="fade-down"
+          data-aos-delay="50"
+          data-aos-duration="2000"
+          className="hidden md:flex flex-col items-center justify-center
+        float-right  md:w-1/2 
+                        duration-1000 object-contain
+        "
+        >
+          <div>
+            <div className="flex space-x-2">
+              <div className="h-24 w-24 lg:h-44 lg:w-44 border-[3px] border-primary rounded-l-[60px] rounded-tr-[60px] overflow-hidden">
+                <img
+                  className="duration-1000 object-cover h-full w-full"
+                  src={ASSETS.MIX.TECH.src}
+                  alt=""
+                />
+              </div>
+              <div className="h-32 w-32 lg:h-52 lg:w-52 border-[3px] mt-5 border-primary  rounded-br-[60px] overflow-hidden">
+                <img
+                  className="duration-1000 object-cover h-full w-full"
+                  src={ASSETS.MIX.CHART.src}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="h-28 w-40 lg:h-44   lg:w-80 border-[3px] -mt-8 border-primary rounded-bl-[60px]  rounded-tr-[60px] overflow-hidden">
+              <img
+                className="duration-1000 object-cover h-full w-full"
+                src={ASSETS.MIX.MAIN.src}
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
