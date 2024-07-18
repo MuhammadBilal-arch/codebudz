@@ -90,9 +90,9 @@ module.exports = {
         },
         moveUpDown: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '30%': { transform: 'translateX(-2%)' },
-          '50%': { transform: 'translateY(-2%)' },
-          '70%': { transform: 'translateX(-2%)' },
+          '30%': { transform: 'translateX(-3%)' },
+          '50%': { transform: 'translateY(-3%)' },
+          '70%': { transform: 'translateX(-3%)' },
         },
       },
 

@@ -52,9 +52,9 @@ const MainCarousel = () => {
                   <img
                     src={item.IMG.src}
                     alt={`Slide ${index + 1}`}
-                    className=" w-full min-h-96 md:min-h-ful max-h-[600px] object-cover cursor-pointer"
+                    className=" w-full min-h-96 md:min-h-full max-h-screen object-cover cursor-pointer"
                   />
-                  <div className="absolute left-0 top-0 inset w-full h-full bg-black-footer bg-opacity-60 min-h-96 md:min-h-ful max-h-[600px] z-10">
+                  <div className="absolute left-0 top-0 inset w-full h-full bg-black-footer bg-opacity-60 min-h-96 md:min-h-full max-h-screen z-10">
 
                   </div>
                   <div className="absolute z-10 top-0 bottom-0 md:w-8/12 left-0 right-0 mx-auto  flex items-center justify-center">

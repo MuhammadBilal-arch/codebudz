@@ -25,7 +25,7 @@ const Blogs = () => {
     },
   ];
   return (
-    <div className="w-full bg-white px-5 md:px-10 lg:px-24 py-14 poppins-family space-y-16">
+    <div className="w-full bg-white px-5 md:px-10 lg:px-24 py-10 poppins-family space-y-16">
       <div className="text-center space-y-1 md:space-y-5">
         <div className="text-xl sm:text-2xl md:text-3xl xl:text-4xl font-semibold jost-family text-black-text">
           Our Latest Blogs.
