@@ -83,7 +83,7 @@ const TeamMembers = () => {
       <div className="relative">
         <Slider {...settings} ref={sliderRef}>
           {LANGUAGES.map((items, index) => (
-            <div key={index} className="h-5 sm:h-6 md:h-8 lg:h-12 2xl:h-14 mx-auto px-5">
+            <div key={index} className="h-5 sm:h-6 md:h-8 lg:h-10 2xl:h-12 mx-auto px-5">
               <img
                 src={items.image}
                 alt=""

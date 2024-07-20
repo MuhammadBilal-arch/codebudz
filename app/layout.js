@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&family=Jost&display=swap"
         />
       </head>
-      <body className="poppins-family">
+      <body className="poppins-family select-none">
         <AOSWrapper>{children}</AOSWrapper>
         <ToastContainer />
       </body>
