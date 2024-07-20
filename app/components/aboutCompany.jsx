@@ -49,9 +49,7 @@ const AboutCompany = () => {
               </div>
               <div className="flex items-center justify-between text-xs md:text-sm 2xl:text-base text-gray-lightdark h-full">
                 <div className="space-y-4">
-                  <div
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
+                  <div       
                     className="flex items-center space-x-1 md:space-x-4"
                   >
                     <div className="text-primary">
@@ -62,8 +60,6 @@ const AboutCompany = () => {
                     </div>
                   </div>
                   <div
-                    data-aos="fade-right"
-                    data-aos-duration="2000"
                     className="flex items-center space-x-1 md:space-x-4"
                   >
                     <div className="text-primary">
@@ -72,8 +68,6 @@ const AboutCompany = () => {
                     <div>laoreet matti ullamc orper posu ere viverra</div>
                   </div>
                   <div
-                    data-aos="fade-right"
-                    data-aos-duration="3000"
                     className="flex items-center space-x-1 md:space-x-4"
                   >
                     <div className="text-primary">
@@ -107,9 +101,7 @@ const AboutCompany = () => {
           </div>
         </div>
         <div
-          data-aos="fade-down"
-          data-aos-delay="50"
-          data-aos-duration="2000"
+ 
           className="hidden md:flex flex-col items-center justify-center
         float-right  md:w-1/2 
                         duration-1000 object-contain
