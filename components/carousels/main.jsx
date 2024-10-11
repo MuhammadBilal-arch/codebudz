@@ -57,7 +57,7 @@ const MainCarousel = () => {
                   <div className="absolute left-0 top-0 inset w-full h-full bg-black-footer bg-opacity-60 min-h-96 md:min-h-full max-h-screen z-10">
 
                   </div>
-                  <div className="absolute z-10 top-0 bottom-0 md:w-8/12 left-0 right-0 mx-auto  flex items-center justify-center">
+                  <div className="max-w-[1440px] absolute z-10 top-0 bottom-0 md:w-8/12 left-0 right-0 mx-auto  flex items-center justify-center">
                     <div className="flex flex-col items-center justify-center space-y-3 md:space-y-12">
                       <div className="space-y-1 sm:space-y-3 md:space-y-10 flex-col font-extrabold text-2xl sm:text-2xl md:text-4xl lg:text-[65px]">
                         <h1 className="text-white">
@@ -88,7 +88,7 @@ const MainCarousel = () => {
                 </div>
               ))}
             </Slider>
-            <div className="absolute md:left-24 md:right-24 inset-0 flex items-center justify-between px-4">
+            <div className="max-w-[1440px] mx-auto absolute md:left-24 md:right-24 inset-0 flex items-center justify-between px-4">
               <div
                 className="cursor-pointer h-6 w-6 sm:h-8 sm:w-8 md:h-12 md:w-12 border border-white rounded-full text-white flex items-center justify-center bg-aqua text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl"
                 onClick={handlePrevClick}

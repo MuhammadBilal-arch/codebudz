@@ -34,8 +34,8 @@ export const Nav = () => {
   }, [drawerState]);
 
   return (
-    <>
-      <nav className="z-50  px-5 sm:px-12 md:px-14 lg:px-20 absolute poppins-family w-full flex items-center justify-between  p-4 text-white ">
+    <div className="w-full flex flex-col md:items-center">
+      <nav className="z-50 max-w-[1440px] mx-auto  px-5 sm:px-12 md:px-14 lg:px-20 absolute poppins-family w-full flex items-center justify-between  p-4 text-white ">
         <Link href="/" className="cursor-pointer">
           <img src={ASSETS.LOGO.LOGO.src} className="h-10 md:h-14" alt="logo" />
         </Link>
@@ -142,6 +142,6 @@ export const Nav = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };

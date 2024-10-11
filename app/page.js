@@ -11,7 +11,7 @@ import OurCompany from "./components/ourCompany";
 
 export default function Home() {
   return (
-    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px] w-full mx-auto overflow-hidden snap-y snap-mandatory h-screen overflow-y-scroll">
+    <div className="relative w-full mx-auto overflow-hidden snap-y snap-mandatory h-screen overflow-y-scroll">
       <div className="snap-start">
         <Nav />
         <MainCarousel />
