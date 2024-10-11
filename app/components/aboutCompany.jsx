@@ -16,10 +16,10 @@ const AboutCompany = () => {
           className="object-cover object-top h-full"
         />
       </div>
-      <div className="text-sm md:text-base lg:text-lg font-bold text-primary uppercase">
+      <div className="max-w-[1440px] mx-auto text-sm md:text-base lg:text-lg font-bold text-primary uppercase">
         About Company
       </div>
-      <div className="flex items-center flex-col md:flex-row space-y-4 lg:space-y-0 ">
+      <div className="max-w-[1440px] mx-auto  flex items-center flex-col md:flex-row space-y-4 lg:space-y-0 ">
         <div className="md:w-1/2">
           <div className="space-y-4">
             <div className="flex items-center justify-between space-x-2">

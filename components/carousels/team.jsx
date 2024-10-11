@@ -84,7 +84,7 @@ const Team = () => {
   };
 
   return (
-    <div className=" text-center space-y-16 px-5 md:px-10 lg:px-24 py-14 overflow-hidden text-purple-primary">
+    <div className="max-w-[1440px] mx-auto text-center space-y-16 px-5 md:px-10 lg:px-24 py-14 overflow-hidden text-purple-primary">
       <div className="w-10/12 mx-auto text-center flex flex-col items-center justify-center space-y-6">
         <div className="text-2xl md:text-4xl lg:text-5xl xl:text-[65px] poppins-family font-semibold text-black-text w-9/12">
           Team

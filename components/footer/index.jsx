@@ -11,7 +11,7 @@ const Footer = () => {
             mx-auto w-full h-full bg-black-footer
               px-5 sm:px-12 md:px-14 lg:px-20 pt-10`}
     >
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 mx-auto max-w-[1440px]">
         <div className="space-y-8">
           <img src={ASSETS.LOGO.LOGO.src} alt="" className="h-10 xl:h-14" />
           <p className="text-white text-sm xl:text-base">
@@ -99,7 +99,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <hr className="text-white mt-10" />
+      <hr className="text-white mt-10 max-w-[1440px] mx-auto" />
       <div className="flex items-center justify-center text-white py-6 text-xs md:text-sm">
         <div>© Copyright 2022. All rights reserved.</div>
       </div>

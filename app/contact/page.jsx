@@ -18,10 +18,10 @@ import {
 
 const Contact = () => {
   return (
-    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto overflow-hidden">
+    <div className="relative w-full mx-auto overflow-hidden">
       <Nav />
       <Hero />
-      <div className="poppins-family p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 space-y-6 md:space-y-0 md:grid grid-cols-2 lg:grid-cols-3">
+      <div className="max-w-[1440px] mx-auto poppins-family p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 space-y-6 md:space-y-0 md:grid grid-cols-2 lg:grid-cols-3">
         <div className="col-span-1 lg:col-span-2 space-y-4 w-11/12">
           {/* HEADING */}
           <div className="space-y-2">

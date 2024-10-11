@@ -28,12 +28,12 @@ const About = () => {
   ];
 
   return (
-    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto overflow-hidden">
+    <div className="relative w-full mx-auto overflow-hidden">
       <Nav />
       <Hero />
       <div className="w-full mx-auto poppins-family space-y-10">
         {/* ABOUT COMPANY */}
-        <div className="flex poppins-family px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 md:py-14">
+        <div className="max-w-[1440px] mx-auto flex poppins-family px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 md:py-14">
           <div className="space-y-4 text-gray-extradark poppins-family text-xs text-left sm:text-sm xl:text-base">
             <img
               data-aos="fade-down"
@@ -79,7 +79,7 @@ const About = () => {
         </div>
         {/* OUR MISSION */}
         <div className="flex bg-blue-extraLight flex-col items-center justify-center space-y-8 xl:space-y-10 w-full px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 md:py-14">
-          <div className="space-y-4 md:w-10/12 lg:w-8/12 max-auto text-center">
+          <div className="max-w-[1440px] space-y-4 md:w-10/12 lg:w-8/12 max-auto text-center">
             <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text ">
               <span className="text-secondary">Our</span> Mission
             </div>
@@ -119,8 +119,8 @@ const About = () => {
           </button>
         </div>
         {/* OUR VISION */}
-        <div className="flex px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24">
-          <div className="space-y-2 text-gray-extradark poppins-family text-xs text-left sm:text-sm xl:text-base">
+        <div className="max-w-[1440px] mx-auto flex px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+          <div className=" space-y-2 text-gray-extradark poppins-family text-xs text-left sm:text-sm xl:text-base">
             <img
               data-aos="fade-down"
               data-aos-delay="50"

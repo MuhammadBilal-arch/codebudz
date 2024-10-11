@@ -8,7 +8,9 @@ import { ASSETS } from "@/public/path";
 import { FaArrowRight } from "react-icons/fa6";
 
 const Services = () => {
-  const LANGUAGES = [
+  
+  const LANGUAGES = 
+  [
     {
       heading: "Apps Development",
       desc: "Ensure flawless performance with rigorous testing. From functionality to usability, we adhere to the highest standards.       ",
@@ -41,14 +43,15 @@ const Services = () => {
     },
   ];
 
+
   
   return (
-    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto overflow-hidden">
+    <div className="relative w-full mx-auto overflow-hidden">
       <Nav />
       <Hero />
       <div className="w-full mx-auto poppins-family space-y-14">
         {/* Services COMPANY */}
-        <div className="flex poppins-family px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 pt-10 lg:pt-16">
+        <div className="max-w-[1440px] mx-auto flex poppins-family px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 pt-10 lg:pt-16">
           <div className="space-y-4 text-gray-extradark poppins-family text-xs text-left sm:text-sm xl:text-base ">
             <img
               className="float-right md:float-left sm:mb-2 pl-2 md:pl-4 pb-4 w-32 h-32 sm:w-24 sm:h-24 md:w-80 lg:w-1/2 md:h-96
@@ -93,7 +96,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-6 w-10/12">
+          <div className="max-w-[1440px] mx-auto grid sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-6 w-10/12">
             {LANGUAGES.map((items, index) => (
               <div
                 className={`${items.background} cursor-pointer flex-col space-y-3  p-5 lg:p-7 h-full rounded-2xl poppins-family`}
@@ -111,6 +114,7 @@ const Services = () => {
               </div>
             ))}
           </div>
+          
         </div>
       </div>
       <Map />

@@ -8,10 +8,10 @@ import { ASSETS } from "@/public/path";
 
 const Blog = () => {
   return (
-    <div className="relative sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1480px]  w-full mx-auto overflow-hidden">
+    <div className="relative w-full mx-auto overflow-hidden">
       <Nav />
       <Hero />
-      <div className="w-full mx-auto p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 poppins-family space-y-4">
+      <div className="max-w-[1440px] w-full mx-auto p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 poppins-family space-y-4">
         <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text">
           Recent <span className="text-secondary">Blog</span> Posts
         </div>

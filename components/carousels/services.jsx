@@ -81,7 +81,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="bg-gray-extralight  text-center space-y-16 p-5 md:p-10 lg:p-24 overflow-hidden text-purple-primary"
+      className="max-w-[1440px] mx-auto text-center space-y-16 p-5 md:p-10 lg:p-24 overflow-hidden text-purple-primary"
     >
       <div>
         <div className="md:w-10/12 mx-auto text-center flex flex-col items-center justify-center jost-family space-y-6">

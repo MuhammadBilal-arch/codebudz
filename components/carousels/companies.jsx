@@ -78,9 +78,9 @@ const TeamMembers = () => {
   return (
     <div
       id="services"
-      className="bg-[#F8FCFC]  text-center px-5 md:px-10 lg:px-24 py-10 overflow-hidden"
+      className="bg-[#F8FCFC]   text-center px-5 md:px-10 lg:px-24 py-10 overflow-hidden"
     >
-      <div className="relative">
+      <div className="relative max-w-[1440px] mx-auto">
         <Slider {...settings} ref={sliderRef}>
           {LANGUAGES.map((items, index) => (
             <div key={index} className="h-5 sm:h-6 md:h-8 lg:h-10 2xl:h-12 mx-auto px-5">

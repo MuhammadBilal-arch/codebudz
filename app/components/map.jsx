@@ -126,7 +126,7 @@ const Map = ({
         </Marker>
       </GoogleMap>
       <div
-        className="absolute bg-white p-5 md:h-20 w-10/12  -bottom-7 z-[1000] 
+        className="max-w-[1440px] mx-auto absolute bg-white p-5 md:h-20 w-10/12  -bottom-7 z-[1000] 
       grid md:grid-cols-3 gap-6 md:gap-4 poppins-family text-sm md:text-base"
       >
         <div className="flex items-center md:justify-center space-x-4">
