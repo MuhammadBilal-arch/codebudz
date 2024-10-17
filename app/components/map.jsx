@@ -145,7 +145,7 @@ const Map = ({
           </div>
           <div>
             <div className="text-gray-extradark text-xs md:text-sm">Get in touch</div>
-            <div className="font-medium">+088 11 22 00 44</div>
+            <div className="font-medium">{process.env.NEXT_PUBLIC_PHONE}</div>
           </div>
         </div>
         <div className="flex items-center md:justify-center space-x-4">
@@ -154,7 +154,7 @@ const Map = ({
           </div>
           <div>
             <div className="text-gray-extradark text-xs md:text-sm">Quick Email Us</div>
-            <div className="font-medium">ontech@envato.com</div>
+            <div className="font-medium">{process.env.NEXT_PUBLIC_EMAIL}</div>
           </div>
         </div>
 

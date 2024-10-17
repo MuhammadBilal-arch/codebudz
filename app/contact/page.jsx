@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
             <div className="text-gray-extradark text-lg md:text-xl lg:text-2xl jost-family">
               You can reach us anytime via{" "}
-              <span className="text-secondary">hi@untitledui.com</span>
+              <span className="text-primary">hi@untitledui.com</span>
             </div>
           </div>
           {/* FORM */}
@@ -149,7 +149,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="col-span-1 bg-secondary text-white overflow-hidden">
+        <div className="col-span-1 bg-primary text-white overflow-hidden">
           <div className="p-5 lg:p-7 space-y-6 ">
             <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium">
               Contact Info

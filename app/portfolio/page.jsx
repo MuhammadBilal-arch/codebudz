@@ -37,7 +37,7 @@ const portfolio = () => {
       <div className="max-w-[1440px] w-full mx-auto p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 poppins-family space-y-16">
         <div className="grid md:grid-cols-2 gap-4 w-full md:w-10/12 lg:w-9/12 xl:w-8/12 mx-auto">
           <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text">
-            <span className="text-primary">Creating</span> Impact With <span className="text-secondary">Every</span>{" "}
+            <span className="text-primary">Creating</span> Impact With <span className="text-primary">Every</span>{" "}
             Project.
           </div>
           <div className="space-y-4">
@@ -59,7 +59,7 @@ const portfolio = () => {
                 className="object-cover w-full h-full"
               />
               <div className="absolute left-0 top-0 w-full h-full z-10 p-4">
-                <div className="bg-secondary whitespace-nowrap text-white px-3 py-1.5 rounded-sm text-xs max-w-min">
+                <div className="bg-primary whitespace-nowrap text-white px-3 py-1.5 rounded-sm text-xs max-w-min">
                   {item.title}
                 </div>
               </div>

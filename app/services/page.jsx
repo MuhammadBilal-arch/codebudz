@@ -14,7 +14,7 @@ const Services = () => {
     {
       heading: "Apps Development",
       desc: "Ensure flawless performance with rigorous testing. From functionality to usability, we adhere to the highest standards.       ",
-      background: "bg-secondary",
+      background: "bg-primary",
     },
     {
       heading: "Web Development",
@@ -24,7 +24,7 @@ const Services = () => {
     {
       heading: "UI UX Design",
       desc: "Ensure flawless performance with rigorous testing. From functionality to usability, we adhere to the highest standards.       ",
-      background: "bg-secondary",
+      background: "bg-primary",
     },
     {
       heading: "Digital Marketing",
@@ -34,7 +34,7 @@ const Services = () => {
     {
       heading: "Quality Assurance",
       desc: "Ensure flawless performance with rigorous testing. From functionality to usability, we adhere to the highest standards.       ",
-      background: "bg-secondary",
+      background: "bg-primary",
     },
     {
       heading: "Mobile Application Development",
@@ -64,7 +64,7 @@ const Services = () => {
                 Real-time Analytics
               </div>
               <div className="text-xl md:text-2xl lg:text-3xl xl:text-4xl md:leading-12 jost-family font-semibold text-black-text">
-                High q<span className="text-secondary">uality produc</span>ts
+                High q<span className="text-primary">uality produc</span>ts
                 services, is able to serve you
               </div>
               <p
@@ -87,7 +87,7 @@ const Services = () => {
         <div className="flex bg-blue-extraLight flex-col items-center justify-center space-y-8 xl:space-y-12 w-full px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 lg:py-16">
           <div className="space-y-4 md:w-10/12 lg:w-8/12 max-auto text-center">
             <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text ">
-              We envisio<span className="text-secondary">n design</span> and
+              We envisio<span className="text-primary">n design</span> and
               development experience
             </div>
             <div className="text-gray-dark">

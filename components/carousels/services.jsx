@@ -13,7 +13,7 @@ const Services = () => {
     {
       heading: "Apps Development",
       desc: "Aliquam eos justo, posuere lbortivive rra laoreet matti ullamc oerposu",
-      background: "bg-secondary",
+      background: "bg-primary",
     },
     {
       heading: "Web Development",
@@ -23,7 +23,7 @@ const Services = () => {
     {
       heading: "UI UX Design",
       desc: "Aliquam eos justo, posuere lbortivive rra laoreet matti ullamc oerposu",
-      background: "bg-secondary",
+      background: "bg-primary",
     },
     {
       heading: "Consultancy For IT",

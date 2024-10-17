@@ -9,7 +9,7 @@ const Blogs = () => {
       type: "Application",
       title: "Consulting Industry Adapts to the Changing Business.",
       image: ASSETS.BLOGS.BLOG_1.src,
-      background: "bg-secondary bg-opacity-50",
+      background: "bg-primary bg-opacity-50",
     },
     {
       type: "Marketing",

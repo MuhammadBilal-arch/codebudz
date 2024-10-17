@@ -81,7 +81,7 @@ const About = () => {
         <div className="flex bg-blue-extraLight flex-col items-center justify-center space-y-8 xl:space-y-10 w-full px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 py-10 md:py-14">
           <div className="max-w-[1440px] space-y-4 md:w-10/12 lg:w-8/12 max-auto text-center">
             <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text ">
-              <span className="text-secondary">Our</span> Mission
+              <span className="text-primary">Our</span> Mission
             </div>
             <div className="text-gray-dark">
               AccurateSAP's objective is to empower organizations by providing
@@ -109,12 +109,12 @@ const About = () => {
             ))}
           </div>
           <div className="md:w-8/12 lg:w-8/12 flex items-center justify-center space-x-4 text-black-text text-xs md:text-sm lg:text-base">
-            <div className="text-secondary">Quality Work</div>
+            <div className="text-primary">Quality Work</div>
             <div>Professional Staffs</div>
             <div>Client Satisfaction</div>
           </div>
 
-          <button className="bg-secondary flex items-center space-x-2 text-white text-xs md:text-sm xl:text-base px-4 py-1            lg:py-2 rounded-md">
+          <button className="bg-primary flex items-center space-x-2 text-white text-xs md:text-sm xl:text-base px-4 py-1            lg:py-2 rounded-md">
             <span>View Projects</span> <FaArrowRight />
           </button>
         </div>
@@ -136,7 +136,7 @@ const About = () => {
               className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text pb-10"
             >
               Our Vision
-              <span className="text-secondary"> Every</span> Project.
+              <span className="text-primary"> Every</span> Project.
             </div>
             <span
               data-aos="fade-right"
@@ -160,7 +160,7 @@ const About = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="3000"
-              className="text-secondary font-semibold poppins-family"
+              className="text-primary font-semibold poppins-family"
             >
               WE ARE PROUD TO OFFER GREAT PRODUCTS
             </div>

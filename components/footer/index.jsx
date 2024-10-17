@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="text-white space-y-6 flex flex-col items-center">
-          <div className="font-semibold text-sm text-secondary uppercase">
+          <div className="font-semibold text-sm text-primary uppercase">
             company
           </div>
           <ul className="space-y-4">
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-white space-y-6 flex flex-col  text-left items-center lg:items-start ">
-          <div className="font-semibold text-sm text-secondary uppercase">
+          <div className="font-semibold text-sm text-primary uppercase">
             help
           </div>
           <ul className="space-y-4">
@@ -74,7 +74,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-white space-y-6 flex flex-col  text-left ">
-          <div className="font-semibold text-sm text-secondary uppercase">
+          <div className="font-semibold text-sm text-primary uppercase">
             newsletter
           </div>
           <form className="space-y-3">

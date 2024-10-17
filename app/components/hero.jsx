@@ -15,15 +15,15 @@ const Hero = () => {
     const name = pathname.replace("/", "");
     switch(name){
       case 'contact':
-        return <span>Conta<span className="text-secondary">ct</span></span>
+        return <span>Conta<span className="text-primary">ct</span></span>
       case 'about':
-        return <span>Ab<span className="text-secondary">o</span>ut</span>
+        return <span>Ab<span className="text-primary">o</span>ut</span>
       case 'blog':
-        return <span>Bl<span className="text-secondary">o</span>g</span>
+        return <span>Bl<span className="text-primary">o</span>g</span>
       case 'services':
-        return <span>S<span className="text-secondary">e</span>rvices</span>
+        return <span>S<span className="text-primary">e</span>rvices</span>
       case 'portfolio':
-        return <span>Portf<span className="text-secondary">olio</span></span>
+        return <span>Portf<span className="text-primary">olio</span></span>
     }
   };
 

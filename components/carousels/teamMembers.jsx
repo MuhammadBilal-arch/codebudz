@@ -87,7 +87,7 @@ const TeamMembers = () => {
       <div className="max-w-[1440px] mx-auto">
         <div>
           <div className="w-10/12 mx-auto text-center flex flex-col items-center justify-center poppins-family space-y-2 md:space-y-4 lg:space-y-6">
-            <div className="text-sm md:text-base lg:text-lg font-medium text-secondary uppercase">
+            <div className="text-sm md:text-base lg:text-lg font-medium text-primary uppercase">
               Team Member
             </div>
             <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text w-9/12">

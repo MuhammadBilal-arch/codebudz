@@ -13,7 +13,7 @@ const Blog = () => {
       <Hero />
       <div className="max-w-[1440px] w-full mx-auto p-5 sm:p-10 md:p-16 lg:p-20 xl:p-24 poppins-family space-y-4">
         <div className="text-xl md:text-2xl lg:text-4xl jost-family font-semibold leading-12 text-black-text">
-          Recent <span className="text-secondary">Blog</span> Posts
+          Recent <span className="text-primary">Blog</span> Posts
         </div>
         <div className="grid lg:grid-cols-2 gap-4">
           <div className="space-y-8">

@@ -52,7 +52,7 @@
 }
 
 .nav-active {
-  @apply text-secondary
+  @apply text-primary
 }
 ::-webkit-scrollbar {
   width: 10px;
